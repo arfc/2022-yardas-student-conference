@@ -28,7 +28,7 @@ actual articles, living or dead, is purely coincidental.}
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction (Heading A)}
-    Historically, software used in licensing, \Gls{rnd}, and \Gls{ent} efforts in the nuclear field have been closed source and proprietary. (cite) For \Gls{rnd} and \Gls{ent} efforts in particular, this can bring collaborative efforts to a grinding halt until regulatory bodies grant software licences. Using closed codes in scientific publications and research presents barriers to ease of reproducibility and the ability of external verification of results.
+    Historically, software used in licensing, \Gls{rnd}, and \Gls{ent} efforts in the nuclear field have been closed source and proprietary. For \Gls{rnd} and \Gls{ent} efforts in particular, this can bring collaborative efforts to a grinding halt until regulatory bodies grant software licences. Using closed codes in scientific publications and research presents barriers to ease of reproducibility and the ability of external verification of results.
     
     Regulatory bodies will require new software features (and in some cases entirely new software tools) in order to effectively and efficiently perform licensing activities for the next generation of advanced reactor designs \cite{usnrc_nonlwr_2020-1}, and many of the open source tools emerging in the past decade (e.g. OpenMC\cite{romano_openmc_2015}) have the advantage over their legacy closed code ancestors (e.g. Serpent \cite{leppanen_serpent_2014}) of using best-practices for software development. It follows that these features and tools are more readily implementable in these new open source projects than in the legacy closed codes.
     
@@ -74,9 +74,10 @@ actual articles, living or dead, is purely coincidental.}
     Going back to our hypothetical example, let's assume that the developer has implemented the feature in the source code and added tests for that feature. They commit it to their development branch, but before merging the feature into the main branch, they need to run the tests to make sure the code still works as intended. With automation, as soon as that commit is made, the test suite runs on the updated code. This is known as {\it continuous integration} (CI). CI enables quick detection of bugs an implementation errors. CI also makes sure that tests pass before merging a feature into the main branch, avoiding the potential hassle of reverting a merge.
     
 
-\section{Conclusions (Heading A)}
+\section{Conclusions}
 
-
+    As we move towards GenIV reactor technology, the benefits of using proven software development practices for \Gls{rnd}, \Gls{ent}, and lisencing tools will ensure that these tools are able to adapt to rapidly adapt new features as needed. The concepts I have discussed in this summary are a small piece of the puzzle informed by my own personal experience. I hope that my writing on these concepts is useful for new scientist starting their own software development projects in this
+    space. I also hope I've been able to provide useful models for these concepts for more experienced software developers. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Acknowledgments}
