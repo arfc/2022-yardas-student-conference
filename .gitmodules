@@ -1,0 +1,3 @@
+[submodule "pres"]
+	path = pres
+	url = git@github.com:yardasol/2022-yardas-ans-student-conference
